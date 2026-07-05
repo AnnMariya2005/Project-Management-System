@@ -1,0 +1,187 @@
+<div class="page">
+
+    <div class="form-card">
+
+        <div class="form-header">
+
+            <div>
+
+                <h2>
+
+                    {{ isEdit ? 'Edit User' : 'Add User' }}
+
+                </h2>
+
+                <p>
+
+                    Enter the user information below.
+
+                </p>
+
+            </div>
+
+            <button
+                type="button"
+                class="close-btn"
+                routerLink="/users">
+
+                ✕
+
+            </button>
+
+        </div>
+
+        <form (ngSubmit)="save()">
+
+            <div class="grid">
+
+                <div class="field">
+
+                    <label>
+
+                        User Name *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        name="userName"
+                        [(ngModel)]="user.userName"
+                        placeholder="Enter user name">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Full Name *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        name="fullName"
+                        [(ngModel)]="user.fullName"
+                        placeholder="Enter full name">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Email *
+
+                    </label>
+
+                    <input
+                        type="email"
+                        name="email"
+                        [(ngModel)]="user.email"
+                        placeholder="Enter email">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        {{ isEdit ? 'New Password (Optional)' : 'Password *' }}
+
+                    </label>
+
+                    <input
+                        type="password"
+                        name="passwordHash"
+                        [(ngModel)]="user.passwordHash"
+                        [placeholder]="isEdit ? 'Leave blank to keep current password' : 'Enter password'">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Role *
+
+                    </label>
+
+                    <select
+                        name="role"
+                        [(ngModel)]="user.role">
+
+                        <option value="Admin">
+
+                            Admin
+
+                        </option>
+
+                        <option value="User">
+
+                            User
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div
+                    class="field"
+                    *ngIf="isEdit">
+
+                    <label>
+
+                        Status
+
+                    </label>
+
+                    <select
+                        name="isActive"
+                        [(ngModel)]="user.isActive">
+
+                        <option [ngValue]="true">
+
+                            Active
+
+                        </option>
+
+                        <option [ngValue]="false">
+
+                            Inactive
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="buttons">
+
+                <button
+                    type="button"
+                    class="secondary"
+                    routerLink="/users">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    type="submit"
+                    class="primary">
+
+                    {{ isEdit ? 'Update User' : 'Save User' }}
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

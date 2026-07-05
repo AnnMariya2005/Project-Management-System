@@ -1,0 +1,164 @@
+<div class="page">
+
+    <div class="form-card">
+
+        <div class="form-header">
+
+            <div>
+
+                <h2>
+
+                    {{ isEdit ? 'Edit Project' : 'Add Project' }}
+
+                </h2>
+
+                <p>
+
+                    Enter the project details below.
+
+                </p>
+
+            </div>
+
+            <button
+                type="button"
+                class="close-btn"
+                routerLink="/projects">
+
+                ✕
+
+            </button>
+
+        </div>
+
+        <form
+            [formGroup]="projectForm"
+            (ngSubmit)="save()">
+
+            <div class="grid">
+
+                <div class="field">
+
+                    <label>Project Name *</label>
+
+                    <input
+                        type="text"
+                        formControlName="projectName">
+
+                </div>
+
+                <div class="field">
+
+                    <label>Project Code *</label>
+
+                    <input
+                        type="text"
+                        formControlName="projectCode">
+
+                </div>
+
+                <div class="field">
+
+                    <label>Project Manager *</label>
+
+                    <input
+                        type="text"
+                        formControlName="manager">
+
+                </div>
+
+                <div class="field">
+
+                    <label>Client</label>
+
+                    <input
+                        type="text"
+                        formControlName="client">
+
+                </div>
+
+                <div class="field">
+
+                    <label>Start Date *</label>
+
+                    <input
+                        type="date"
+                        formControlName="startDate">
+
+                </div>
+
+                <div class="field">
+
+                    <label>End Date *</label>
+
+                    <input
+                        type="date"
+                        formControlName="endDate">
+
+                </div>
+
+                <div class="field">
+
+                    <label>Status *</label>
+
+                    <select formControlName="status">
+
+                        <option value="">Select Status</option>
+
+                        <option>Planning</option>
+
+                        <option>In Progress</option>
+
+                        <option>Completed</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="field description">
+
+                <label>Description</label>
+
+                <textarea
+
+                    rows="5"
+
+                    formControlName="description">
+
+                </textarea>
+
+            </div>
+
+            <div class="buttons">
+
+                <button
+
+                    type="button"
+
+                    class="secondary"
+
+                    (click)="cancel()">
+
+                    Cancel
+
+                </button>
+
+                <button
+
+                    type="submit"
+
+                    class="primary">
+
+                    {{ isEdit ? 'Update Project' : 'Save Project' }}
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

@@ -1,0 +1,35 @@
+.layout{
+    display:flex;
+    min-height:100vh;
+    background:#f4f7fb;
+}
+
+/* Sidebar is fixed */
+.main{
+
+    margin-left:240px;
+
+    width:calc(100% - 254px);
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    background:#f4f7fb;
+
+}
+
+/* Content below header */
+.content{
+
+    flex:1;
+
+    padding:28px;
+
+    overflow-y:auto;
+
+    height:calc(100vh - 72px);
+
+}

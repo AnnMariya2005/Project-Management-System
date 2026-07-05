@@ -1,1 +1,437 @@
-/* You can add global styles to this file, and also import other style files */
+/* =====================================================
+   PROJECT MANAGEMENT SYSTEM
+   GLOBAL STYLES
+======================================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+}
+
+html,
+body{
+
+    width:100%;
+    height:100%;
+
+    background:#f5f7fb;
+
+    color:#1f2937;
+
+    overflow-x:hidden;
+
+    overflow-y:auto;
+
+}
+
+body{
+
+    font-size:14px;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#c7d2fe;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#eef2ff;
+
+}
+
+/* ======================
+   PAGE
+======================*/
+
+.page{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:28px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+
+}
+
+/* ======================
+   CARD
+======================*/
+
+.card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:24px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+
+}
+
+/* ======================
+   PAGE TITLE
+======================*/
+
+.page-title{
+
+    margin-bottom:25px;
+
+}
+
+.page-title h2{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#111827;
+
+}
+
+.page-title p{
+
+    margin-top:5px;
+
+    color:#6b7280;
+
+}
+
+/* ======================
+   TOOLBAR
+======================*/
+
+.toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.toolbar-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+/* ======================
+   INPUTS
+======================*/
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:11px 14px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+    transition:.2s;
+
+    background:white;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.12);
+
+}
+
+textarea{
+
+    resize:vertical;
+
+    min-height:110px;
+
+}
+
+/* ======================
+   BUTTONS
+======================*/
+
+button{
+
+    cursor:pointer;
+
+    transition:.2s;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.primary{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:11px 22px;
+
+    border-radius:8px;
+
+}
+
+.primary:hover{
+
+    background:#1d4ed8;
+
+}
+
+.secondary{
+
+    background:white;
+
+    border:1px solid #d1d5db;
+
+    color:#374151;
+
+    padding:11px 22px;
+
+    border-radius:8px;
+
+}
+
+.secondary:hover{
+
+    background:#f3f4f6;
+
+}
+
+.cancel{
+
+    background:white;
+
+    border:1px solid #d1d5db;
+
+    color:#374151;
+
+}
+
+.save{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+}
+
+.delete{
+
+    color:#dc2626;
+
+}
+
+/* ======================
+   TABLE
+======================*/
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+thead{
+
+    background:#f8fafc;
+
+}
+
+th{
+
+    padding:15px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#374151;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+td{
+
+    padding:16px;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+tbody tr{
+
+    transition:.2s;
+
+}
+
+tbody tr:hover{
+
+    background:#f8fbff;
+
+}
+
+/* ======================
+   STATUS BADGES
+======================*/
+
+.badge{
+
+    display:inline-block;
+
+    padding:5px 12px;
+
+    border-radius:30px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+.badge-success{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+.badge-warning{
+
+    background:#fef3c7;
+
+    color:#92400e;
+
+}
+
+.badge-info{
+
+    background:#dbeafe;
+
+    color:#1d4ed8;
+
+}
+
+.badge-danger{
+
+    background:#fee2e2;
+
+    color:#b91c1c;
+
+}
+
+/* ======================
+   FORM
+======================*/
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:22px;
+
+}
+
+.field{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+label{
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#374151;
+
+}
+
+/* ======================
+   FORM BUTTONS
+======================*/
+
+.buttons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:14px;
+
+    margin-top:30px;
+
+}
+
+/* ======================
+   PAGINATION
+======================*/
+
+.pagination{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-top:20px;
+
+    color:#6b7280;
+
+}

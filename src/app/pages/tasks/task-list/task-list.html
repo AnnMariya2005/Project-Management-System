@@ -1,0 +1,189 @@
+<div class="page">
+
+    <div class="page-title">
+
+        <h2>Tasks</h2>
+
+        <p>
+
+            Manage and track all project tasks.
+
+        </p>
+
+    </div>
+
+    <div class="toolbar">
+
+        <div class="toolbar-right">
+
+            <input
+                type="text"
+                placeholder="Search task, employee or status..."
+                [(ngModel)]="searchText"
+                (input)="searchTasks()">
+
+        </div>
+
+        <button
+            class="primary"
+            routerLink="/tasks/add">
+
+            Add Task
+
+        </button>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Task Name</th>
+
+                <th>Project</th>
+
+                <th>Assigned To</th>
+
+                <th>Priority</th>
+
+                <th>Status</th>
+
+                <th>Due Date</th>
+
+                <th width="120">
+
+                    Actions
+
+                </th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr *ngFor="let task of filteredTasks">
+
+                <td>
+
+                    <strong>
+
+                        {{ task.taskName }}
+
+                    </strong>
+
+                </td>
+
+                <td>
+
+                    {{ task.projectId }}
+
+                </td>
+
+                <td>
+
+                    {{ task.assignedTo }}
+
+                </td>
+
+                <td>
+
+                    <span
+
+                        class="priority"
+
+                        [ngClass]="{
+
+                        'high':task.priority==='High',
+
+                        'medium':task.priority==='Medium',
+
+                        'low':task.priority==='Low'
+
+                        }">
+
+                        {{ task.priority }}
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <span
+
+                        class="status"
+
+                        [ngClass]="{
+
+                        'completed':task.status==='Completed',
+
+                        'progress':task.status==='In Progress',
+
+                        'pending':task.status==='Pending'
+
+                        }">
+
+                        {{ task.status }}
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    {{ task.dueDate | date:'dd MMM yyyy' }}
+
+                </td>
+
+                <td class="action-buttons">
+
+                    <button
+
+                        class="edit-btn"
+
+                        (click)="editTask(task.taskId!)">
+
+                        Edit
+
+                    </button>
+
+                    <button
+
+                        class="delete-btn"
+
+                        (click)="deleteTask(task.taskId!)">
+
+                        Delete
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <div class="pagination">
+
+        <span>
+
+            Showing
+
+            <strong>
+
+                {{ filteredTasks.length }}
+
+            </strong>
+
+            Task(s)
+
+        </span>
+
+    </div>
+
+</div>

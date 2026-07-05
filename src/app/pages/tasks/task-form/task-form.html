@@ -1,0 +1,212 @@
+<div class="page">
+
+    <div class="form-card">
+
+        <div class="form-header">
+
+            <div>
+
+                <h2>
+
+                    {{ editMode ? 'Edit Task' : 'Add Task' }}
+
+                </h2>
+
+                <p>
+
+                    Enter the task details below.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <form
+            [formGroup]="taskForm"
+            (ngSubmit)="save()">
+
+            <div class="grid">
+
+                <div class="field">
+
+                    <label>
+
+                        Task Name *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        formControlName="taskName">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Project *
+
+                    </label>
+
+                    <select formControlName="projectId">
+
+                        <option [ngValue]="null">
+
+                            Select Project
+
+                        </option>
+
+                        <option
+                            *ngFor="let p of projects"
+                            [ngValue]="p.projectId">
+
+                            {{ p.projectName }}
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Assigned To *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        formControlName="assignedTo">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Priority *
+
+                    </label>
+
+                    <select formControlName="priority">
+
+                        <option>High</option>
+
+                        <option>Medium</option>
+
+                        <option>Low</option>
+
+                    </select>
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Status *
+
+                    </label>
+
+                    <select formControlName="status">
+
+                        <option>Pending</option>
+
+                        <option>In Progress</option>
+
+                        <option>Completed</option>
+
+                    </select>
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Estimated Hours
+
+                    </label>
+
+                    <input
+                        type="number"
+                        formControlName="estimatedHours">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Start Date *
+
+                    </label>
+
+                    <input
+                        type="date"
+                        formControlName="startDate">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Due Date *
+
+                    </label>
+
+                    <input
+                        type="date"
+                        formControlName="dueDate">
+
+                </div>
+
+            </div>
+
+            <div class="field description">
+
+                <label>
+
+                    Description
+
+                </label>
+
+                <textarea
+                    rows="5"
+                    formControlName="description">
+
+                </textarea>
+
+            </div>
+
+            <div class="buttons">
+
+                <button
+                    type="button"
+                    class="secondary"
+                    (click)="cancel()">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    type="submit"
+                    class="primary">
+
+                    {{ editMode ? 'Update Task' : 'Save Task' }}
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

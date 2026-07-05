@@ -1,0 +1,107 @@
+<div class="login-page">
+
+    <div class="login-card">
+
+        <div class="logo">
+
+            <div class="logo-box">PMS</div>
+
+            <div>
+
+                <h2>Project Management System</h2>
+
+                <p>Management Portal</p>
+
+            </div>
+
+        </div>
+
+        <div class="heading">
+
+            <h1>Sign In</h1>
+
+            <p>Enter your credentials to continue.</p>
+
+        </div>
+
+        <form
+            [formGroup]="loginForm"
+            (ngSubmit)="login()">
+
+            <div class="field">
+
+                <label>Email</label>
+
+                <input
+                    type="text"
+                    formControlName="username"
+                    placeholder="Enter email or Username">
+
+                <small
+                    *ngIf="loginForm.controls['username'].touched && loginForm.controls['username'].invalid">
+
+                    Email is required
+
+                </small>
+
+            </div>
+
+            <div class="field">
+
+                <label>Password</label>
+
+                <div class="password-box">
+
+                    <input
+                        [type]="showPassword ? 'text' : 'password'"
+                        formControlName="password"
+                        placeholder="Enter password">
+
+                    <span
+                        class="toggle"
+                        (click)="togglePassword()">
+
+                        {{showPassword ? 'Hide' : 'Show'}}
+
+                    </span>
+
+                </div>
+
+                <small
+                    *ngIf="loginForm.controls['password'].touched && loginForm.controls['password'].invalid">
+
+                    Password is required
+
+                </small>
+
+            </div>
+
+            <div class="options">
+
+                <label>
+
+                    <input type="checkbox">
+
+                    Remember me
+
+                </label>
+
+                <a href="javascript:void(0)" (click)="forgotPassword()">
+                    Forgot Password?
+                </a>
+
+            </div>
+
+            <button
+                type="submit"
+                class="login-btn">
+
+                Sign In
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

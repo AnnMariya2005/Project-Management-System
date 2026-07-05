@@ -1,0 +1,177 @@
+<div class="page">
+
+    <div class="page-title">
+
+        <h2>Users</h2>
+
+        <p>
+
+            Manage all registered users.
+
+        </p>
+
+    </div>
+
+    <div class="toolbar">
+
+        <div class="toolbar-right">
+
+            <input
+                type="text"
+                placeholder="Search user, email or role..."
+                [(ngModel)]="searchText"
+                (input)="search()">
+
+        </div>
+
+        <button
+
+            class="primary"
+
+            routerLink="/users/add">
+
+            Add User
+
+        </button>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th width="50">
+
+                    <input type="checkbox">
+
+                </th>
+
+                <th>User Name</th>
+
+                <th>Full Name</th>
+
+                <th>Email</th>
+
+                <th>Role</th>
+
+                <th>Status</th>
+
+                <th width="120">
+
+                    Actions
+
+                </th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr *ngFor="let user of filteredUsers">
+
+                <td>
+
+                    <input type="checkbox">
+
+                </td>
+
+                <td>
+
+                    <strong>
+
+                        {{ user.userName }}
+
+                    </strong>
+
+                </td>
+
+                <td>
+
+                    {{ user.fullName }}
+
+                </td>
+
+                <td>
+
+                    {{ user.email }}
+
+                </td>
+
+                <td>
+
+                    {{ user.role }}
+
+                </td>
+
+                <td>
+
+                    <span
+
+                        class="status"
+
+                        [ngClass]="{
+
+                        'active':user.isActive,
+
+                        'inactive':!user.isActive
+
+                        }">
+
+                        {{ user.isActive ? 'Active' : 'Inactive' }}
+
+                    </span>
+
+                </td>
+
+                <td class="action-buttons">
+
+                    <button
+
+                        class="edit-btn"
+
+                        (click)="editUser(user.userId)">
+
+                        Edit
+
+                    </button>
+
+                    <button
+
+                        class="delete-btn"
+
+                        (click)="deleteUser(user.userId)">
+
+                        Delete
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <div class="pagination">
+
+        <span>
+
+            Showing
+
+            <strong>
+
+                {{ filteredUsers.length }}
+
+            </strong>
+
+            User(s)
+
+        </span>
+
+    </div>
+
+</div>
