@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\updateprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\updateprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\taskdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\taskdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\projectdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\projectdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\addprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\addprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\projectmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\projectmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\dell\\source\\repos\\projectmanagementapi\\projectmanagementapi\\migrations\\20260629182323_addprojecttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F197A0-D28B-DA9B-2B55-26BB231D2DBF}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\migrations\\20260629182323_addprojecttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowF8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:24:22.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA1wEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T13:08:57.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\TaskService.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Services\\TaskService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T13:06:13.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T13:04:36.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UpdateTaskDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\UpdateTaskDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UpdateTaskDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\UpdateTaskDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T12:58:22.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T19:15:01.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:23:07.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T13:53:25.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:19:35.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Program.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:29:33.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T17:49:48.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Models\\Project.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Models\\Project.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T18:18:02.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UpdateProjectDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\UpdateProjectDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UpdateProjectDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\UpdateProjectDto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T18:29:08.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T19:04:01.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\ProjectService.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Services\\ProjectService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAgwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T19:08:46.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Repositories\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\IProjectRepository.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Repositories\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T19:03:12.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\IProjectService.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Services\\IProjectService.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\IProjectService.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Services\\IProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T19:08:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:23:33.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\IUserService.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Services\\IUserService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:22:32.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\AddUserDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\AddUserDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\AddUserDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\AddUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T13:52:52.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\AddTaskDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\AddTaskDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\AddTaskDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\AddTaskDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T12:57:32.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TaskDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\TaskDetailsDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\TaskDetailsDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\TaskDetailsDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\TaskDetailsDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T12:59:10.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Models\\TaskItem.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Models\\TaskItem.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T06:47:12.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Repositories\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Repositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T13:03:19.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Services\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Services\\ITaskService.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Services\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T13:05:28.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\AddProjectDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\AddProjectDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\AddProjectDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\AddProjectDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA9wBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T18:28:44.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProjectDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\ProjectDetailsDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\ProjectDetailsDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\ProjectDetailsDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\ProjectDetailsDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T18:29:26.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260629182323_AddProjectTable.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Migrations\\20260629182323_AddProjectTable.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Migrations\\20260629182323_AddProjectTable.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Migrations\\20260629182323_AddProjectTable.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Migrations\\20260629182323_AddProjectTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T18:23:24.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\appsettings.json",
+              "RelativeToolTip": "ProjectManagementAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-09T17:10:24.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UserDetailsDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\UserDetailsDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\UserDetailsDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\UserDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T13:52:14.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:51:11.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T14:40:29.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\Models\\User.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T17:34:26.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:48:05.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProjectManagementAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\ProjectManagementAPI\\ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "RelativeToolTip": "ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-09T16:04:26.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
